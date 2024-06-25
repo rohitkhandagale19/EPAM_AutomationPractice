@@ -1,0 +1,6 @@
+11:59:05.099 [main] INFO  CountClumpsLogs - Starting clump count calculations.
+11:59:05.113 [main] DEBUG CountClumpsLogs - Test array 1: Clumps count: 3
+11:59:05.113 [main] DEBUG CountClumpsLogs - Test array 2: Clumps count: 2
+11:59:05.114 [main] DEBUG CountClumpsLogs - Test array 3: Clumps count: 1
+11:59:05.114 [main] ERROR CountClumpsLogs - Test array 4 length is less than 1: 0
+11:59:05.114 [main] INFO  CountClumpsLogs - Finished clump count calculations.

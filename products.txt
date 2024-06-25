@@ -1,0 +1,44 @@
+Product{name='Laptop', price=1500.0, category='electronics', grade='A'}
+Product{name='Phone', price=800.0, category='electronics', grade='B'}
+Product{name='Book', price=50.0, category='education', grade='A'}
+Product{name='Shoes', price=120.0, category='fashion', grade='C'}
+Product{name='TV', price=300.0, category='electronics', grade='A'}
+Product{name='Headphones', price=150.0, category='electronics', grade='B'}
+Product{name='Luxury Car', price=3500.0, category='automobile', grade='A'}
+Product{name='Laptop', price=1500.0, category='electronics', grade='Premium'}
+Product{name='Phone', price=800.0, category='electronics', grade='B'}
+Product{name='Book', price=50.0, category='education', grade='A'}
+Product{name='Shoes', price=120.0, category='fashion', grade='C'}
+Product{name='TV', price=300.0, category='electronics', grade='A'}
+Product{name='Headphones', price=150.0, category='electronics', grade='B'}
+Product{name='Luxury Car', price=3500.0, category='automobile', grade='Premium'}
+Product{name='Laptop', price=1500.0, category='electronics', grade='Premium'}
+Product{name='Phone', price=800.0, category='electronics', grade='B'}
+Product{name='Book', price=50.0, category='education', grade='A'}
+Product{name='Shoes', price=120.0, category='fashion', grade='C'}
+Product{name='TV', price=300.0, category='electronics', grade='A'}
+Product{name='Headphones', price=150.0, category='electronics', grade='B'}
+Product{name='Luxury Car*', price=3500.0, category='automobile', grade='Premium'}
+Product{name='Luxury Car*', price=3500.0, category='automobile', grade='Premium'}
+Product{name='Laptop', price=1500.0, category='electronics', grade='A'}
+Product{name='Phone', price=800.0, category='electronics', grade='B'}
+Product{name='Book', price=50.0, category='education', grade='A'}
+Product{name='Shoes', price=120.0, category='fashion', grade='C'}
+Product{name='TV', price=300.0, category='electronics', grade='A'}
+Product{name='Headphones', price=150.0, category='electronics', grade='B'}
+Product{name='Luxury Car', price=3500.0, category='automobile', grade='A'}
+Product{name='Laptop', price=1500.0, category='electronics', grade='Premium'}
+Product{name='Phone', price=800.0, category='electronics', grade='B'}
+Product{name='Book', price=50.0, category='education', grade='A'}
+Product{name='Shoes', price=120.0, category='fashion', grade='C'}
+Product{name='TV', price=300.0, category='electronics', grade='A'}
+Product{name='Headphones', price=150.0, category='electronics', grade='B'}
+Product{name='Luxury Car', price=3500.0, category='automobile', grade='Premium'}
+Product{name='Laptop', price=1500.0, category='electronics', grade='Premium'}
+Product{name='Phone', price=800.0, category='electronics', grade='B'}
+Product{name='Book', price=50.0, category='education', grade='A'}
+Product{name='Shoes', price=120.0, category='fashion', grade='C'}
+Product{name='TV', price=300.0, category='electronics', grade='A'}
+Product{name='Headphones', price=150.0, category='electronics', grade='B'}
+Product{name='Luxury Car*', price=3500.0, category='automobile', grade='Premium'}
+Product{name='Luxury Car*', price=3500.0, category='automobile', grade='Premium'}

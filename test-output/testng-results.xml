@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="15" failed="1" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-24T14:39:52 IST" name="CalculatorTestSuite" finished-at="2024-06-24T14:39:52 IST" duration-ms="77">
+    <groups>
+      <group name="Addition">
+        <method signature="CalculatorTest.testSumNegative()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" name="testSumNegative" class="TestNG_Project.CalculatorTest"/>
+        <method signature="CalculatorTest.testSumPositive()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" name="testSumPositive" class="TestNG_Project.CalculatorTest"/>
+      </group> <!-- Addition -->
+      <group name="Multiplication">
+        <method signature="CalculatorTest.testMultNegative()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" name="testMultNegative" class="TestNG_Project.CalculatorTest"/>
+        <method signature="CalculatorTest.testMultPositive()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" name="testMultPositive" class="TestNG_Project.CalculatorTest"/>
+      </group> <!-- Multiplication -->
+      <group name="Subtraction">
+        <method signature="CalculatorTest.testSubNegative()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" name="testSubNegative" class="TestNG_Project.CalculatorTest"/>
+        <method signature="CalculatorTest.testSubPositive()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" name="testSubPositive" class="TestNG_Project.CalculatorTest"/>
+      </group> <!-- Subtraction -->
+      <group name="Division">
+        <method signature="CalculatorTest.testDivByZero()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" name="testDivByZero" class="TestNG_Project.CalculatorTest"/>
+        <method signature="CalculatorTest.testDivNegative()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" name="testDivNegative" class="TestNG_Project.CalculatorTest"/>
+        <method signature="CalculatorTest.testDivPositive()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" name="testDivPositive" class="TestNG_Project.CalculatorTest"/>
+      </group> <!-- Division -->
+      <group name="Power">
+        <method signature="CalculatorTest.testPowNegative()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" name="testPowNegative" class="TestNG_Project.CalculatorTest"/>
+        <method signature="CalculatorTest.testPowPositive()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" name="testPowPositive" class="TestNG_Project.CalculatorTest"/>
+      </group> <!-- Power -->
+    </groups>
+    <test started-at="2024-06-24T14:39:52 IST" name="CalculatorTest" finished-at="2024-06-24T14:39:52 IST" duration-ms="77">
+      <class name="TestNG_Project.CalculatorTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="setUp" finished-at="2024-06-24T14:39:52 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDivNegative()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testDivNegative" finished-at="2024-06-24T14:39:52 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNegative -->
+        <test-method signature="testDivByZero()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testDivByZero" finished-at="2024-06-24T14:39:52 IST" duration-ms="1" status="PASS">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[Attempt to divide by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: Attempt to divide by zero
+at com.epam.tat.module4.Calculator.div(Calculator.java:34)
+at TestNG_Project.CalculatorTest.testDivByZero(CalculatorTest.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivByZero -->
+        <test-method signature="testDivPositive()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testDivPositive" finished-at="2024-06-24T14:39:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivPositive -->
+        <test-method signature="testMultNegative()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testMultNegative" finished-at="2024-06-24T14:39:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultNegative -->
+        <test-method signature="testMultPositive()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testMultPositive" finished-at="2024-06-24T14:39:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultPositive -->
+        <test-method signature="testPowNegative()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testPowNegative" finished-at="2024-06-24T14:39:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPowNegative -->
+        <test-method signature="testSubNegative()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testSubNegative" finished-at="2024-06-24T14:39:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubNegative -->
+        <test-method signature="testPowPositive()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testPowPositive" finished-at="2024-06-24T14:39:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPowPositive -->
+        <test-method signature="testSumNegative()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testSumNegative" finished-at="2024-06-24T14:39:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSumNegative -->
+        <test-method signature="testSubPositive()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testSubPositive" finished-at="2024-06-24T14:39:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubPositive -->
+        <test-method signature="testSumPositive()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testSumPositive" finished-at="2024-06-24T14:39:52 IST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [5] but found [6]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [5] but found [6]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:980)
+at org.testng.Assert.assertEquals(Assert.java:956)
+at org.testng.Assert.assertEquals(Assert.java:990)
+at TestNG_Project.CalculatorTest.testSumPositive(CalculatorTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSumPositive -->
+        <test-method signature="testSumWithDataProvider(int,int,int)[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testSumWithDataProvider" data-provider="valuesForSum" finished-at="2024-06-24T14:39:52 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSumWithDataProvider -->
+        <test-method signature="testMultiplyAfterAddition()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testMultiplyAfterAddition" depends-on-groups="Addition" finished-at="2024-06-24T14:39:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplyAfterAddition -->
+        <test-method signature="testSumWithDataProvider(int,int,int)[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testSumWithDataProvider" data-provider="valuesForSum" finished-at="2024-06-24T14:39:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSumWithDataProvider -->
+        <test-method signature="testSumWithDataProvider(int,int,int)[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testSumWithDataProvider" data-provider="valuesForSum" finished-at="2024-06-24T14:39:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSumWithDataProvider -->
+        <test-method signature="testSumWithDataProvider(int,int,int)[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testSumWithDataProvider" data-provider="valuesForSum" finished-at="2024-06-24T14:39:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSumWithDataProvider -->
+        <test-method signature="testSubtractAfterAddition()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testSubtractAfterAddition" depends-on-groups="Addition" finished-at="2024-06-24T14:39:52 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CalculatorTest.testSubtractAfterAddition()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f] depends on not successfully finished methods in group "Addition"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CalculatorTest.testSubtractAfterAddition()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f] depends on not successfully finished methods in group "Addition"
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractAfterAddition -->
+        <test-method signature="testPowerAfterAddition()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="testPowerAfterAddition" depends-on-groups="Addition" finished-at="2024-06-24T14:39:52 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CalculatorTest.testPowerAfterAddition()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f] depends on not successfully finished methods in group "Addition"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CalculatorTest.testPowerAfterAddition()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f] depends on not successfully finished methods in group "Addition"
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPowerAfterAddition -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f]" started-at="2024-06-24T14:39:52 IST" name="tearDown" finished-at="2024-06-24T14:39:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG_Project.CalculatorTest -->
+    </test> <!-- CalculatorTest -->
+  </suite> <!-- CalculatorTestSuite -->
+</testng-results>

@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">CalculatorTestSuite</th></tr>
+<tr><td><a href="#t0">CalculatorTest</a></td><td class="num">15</td><td class="num attn">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">77</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">CalculatorTestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">CalculatorTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestNG_Project.CalculatorTest</td><td><a href="#m0">testSumPositive</a></td><td rowspan="1">1719220192499</td><td rowspan="1">5</td></tr><tr><th colspan="4">CalculatorTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">TestNG_Project.CalculatorTest</td><td><a href="#m1">testPowerAfterAddition</a></td><td rowspan="1">1719220192509</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">testSubtractAfterAddition</a></td><td rowspan="1">1719220192509</td><td rowspan="1">0</td></tr><tr><th colspan="4">CalculatorTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="15">TestNG_Project.CalculatorTest</td><td><a href="#m3">testDivByZero</a></td><td rowspan="1">1719220192487</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m4">testDivNegative</a></td><td rowspan="1">1719220192487</td><td rowspan="1">4</td></tr><tr class="passedeven"><td><a href="#m5">testDivPositive</a></td><td rowspan="1">1719220192495</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m6">testMultNegative</a></td><td rowspan="1">1719220192495</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m7">testMultPositive</a></td><td rowspan="1">1719220192496</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m8">testMultiplyAfterAddition</a></td><td rowspan="1">1719220192505</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m9">testPowNegative</a></td><td rowspan="1">1719220192496</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m10">testPowPositive</a></td><td rowspan="1">1719220192497</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m11">testSubNegative</a></td><td rowspan="1">1719220192497</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m12">testSubPositive</a></td><td rowspan="1">1719220192498</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m13">testSumNegative</a></td><td rowspan="1">1719220192498</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m14">testSumWithDataProvider</a></td><td rowspan="4">1719220192507</td><td rowspan="4">0</td></tr><tr class="passedeven"><td><a href="#m15">testSumWithDataProvider</a></td></tr><tr class="passedeven"><td><a href="#m16">testSumWithDataProvider</a></td></tr><tr class="passedeven"><td><a href="#m17">testSumWithDataProvider</a></td></tr></tbody>
+</table>
+<h2>CalculatorTest</h2><h3 id="m0">TestNG_Project.CalculatorTest#testSumPositive</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [5] but found [6]
+	at TestNG_Project.CalculatorTest.testSumPositive(CalculatorTest.java:36)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestNG_Project.CalculatorTest#testPowerAfterAddition</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method CalculatorTest.testPowerAfterAddition()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f] depends on not successfully finished methods in group &quot;Addition&quot;
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 4 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestNG_Project.CalculatorTest#testSubtractAfterAddition</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method CalculatorTest.testSubtractAfterAddition()[pri:0, instance:TestNG_Project.CalculatorTest@1445d7f] depends on not successfully finished methods in group &quot;Addition&quot;
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 4 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestNG_Project.CalculatorTest#testDivByZero</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.NumberFormatException: Attempt to divide by zero
+	at com.epam.tat.module4.Calculator.div(Calculator.java:34)
+	at TestNG_Project.CalculatorTest.testDivByZero(CalculatorTest.java:100)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestNG_Project.CalculatorTest#testDivNegative</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestNG_Project.CalculatorTest#testDivPositive</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestNG_Project.CalculatorTest#testMultNegative</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestNG_Project.CalculatorTest#testMultPositive</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">TestNG_Project.CalculatorTest#testMultiplyAfterAddition</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">TestNG_Project.CalculatorTest#testPowNegative</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">TestNG_Project.CalculatorTest#testPowPositive</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">TestNG_Project.CalculatorTest#testSubNegative</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">TestNG_Project.CalculatorTest#testSubPositive</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">TestNG_Project.CalculatorTest#testSumNegative</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">TestNG_Project.CalculatorTest#testSumWithDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>0</td><td>2147483647</td><td>2147483647</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">TestNG_Project.CalculatorTest#testSumWithDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>-2</td><td>-3</td><td>-5</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">TestNG_Project.CalculatorTest#testSumWithDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>0</td><td>0</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">TestNG_Project.CalculatorTest#testSumWithDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>2</td><td>3</td><td>5</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
